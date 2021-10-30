@@ -1,0 +1,9 @@
+body {
+    background: hsl(226, 43%, 10%);
+    font-family: "Rubik", sans-serif;
+}
+
+
+.lis{
+    z-index: -1;
+}
