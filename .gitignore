@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# project info
+/time-tracking-dashboard-main
+
 # production
 /build
 
