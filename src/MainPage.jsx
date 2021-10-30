@@ -6,7 +6,7 @@ import './App.css'
 const Main = () => {
 
     const [data, setData] = useState([])
-    const [time,setTime] = useState('')
+    const [time,setTime] = useState('weekly')
 
     useEffect(() => {
 
@@ -22,7 +22,7 @@ const Main = () => {
 
 
     return (
-        <div className="w-screen h-full flex flex-col items-center justify-center">
+        <div className="w-screen h-full flex flex-col items-center justify-center px-4 mt-10">
             <ProfileCard setTime={setTime} time={time} />
             <StatusContainer data={data} time={time}/>
         </div>
