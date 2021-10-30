@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import StatusContainer from './components/StatusContainer'
+import ProfileCard from './components/ProfileCard'
 import './App.css'
 
 const Main = () => {
 
     const [data, setData] = useState([])
+    const [time,setTime] = useState('')
 
     useEffect(() => {
 
@@ -13,7 +15,6 @@ const Main = () => {
             const response = await fetch('./data/data.json')
             const data = await response.json()
             setData(data)
-            console.log(data);
         }
 
         getData()
@@ -21,8 +22,9 @@ const Main = () => {
 
 
     return (
-        <div>
-            <StatusContainer/>
+        <div className="w-screen h-full flex flex-col items-center justify-center">
+            <ProfileCard setTime={setTime} time={time} />
+            <StatusContainer data={data} time={time}/>
         </div>
     )
 }
