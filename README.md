@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Live Site URL](https://time-tracking-dash.herokuapp.com/)
+- [Solution URL](https://www.frontendmentor.io/solutions/time-tracking-dashboard-MsztyBspy)
 
 ## My process
 
