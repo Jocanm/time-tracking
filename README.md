@@ -14,13 +14,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./final_ss/desktop.jpg)
-![Mobile](./final_ss/mobile.jpg)
+![Desktop](./screenshots/desktop.jpg)
+![Mobile](./screenshots/mobile.jpg)
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/tip-calculator-gqk3w6WWK)
-- [Live Site URL](https://tip-calcu.herokuapp.com)
+- [Solution URL]()
+- [Live Site URL]()
 
 ## My process
 
