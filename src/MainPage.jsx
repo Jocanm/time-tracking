@@ -39,13 +39,19 @@ const AboutThis = () => {
             <span className="text-tk-blue-pale opacity-75 mr-1">
                 Challenge by
             </span>
-            <a href="https://www.frontendmentor.io/home" className="text-tk-violet mr-1">
-                Front Mentor
+            <a href="https://www.frontendmentor.io/home" className="text-tk-violet mr-1"
+            target="_blank"
+            rel="noreferrer"
+            >
+                Frontend Mentor
             </a>
             <span className="text-tk-blue-pale opacity-75 mr-1">
                 Coded by
             </span>
-            <a href="https://github.com/Jocanm" className="text-tk-violet">
+            <a href="https://github.com/Jocanm" className="text-tk-violet"
+            target="_blank"
+            rel="noreferrer"
+            >
                 Jose Angarita
             </a>
         </div>
