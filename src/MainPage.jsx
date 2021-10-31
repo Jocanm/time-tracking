@@ -23,7 +23,7 @@ const Main = () => {
 
     return (
         <div>
-            <div className="w-screen h-full flex flex-col items-center justify-center px-4 mt-10 sm:flex-row sm:px-20 sm:py-20 mb-28 sm:mb-0">
+            <div className="w-screen h-full flex flex-col items-center justify-center px-4 mt-10 sm:flex-row sm:px-36 sm:py-20 mb-28 sm:mb-0">
                 <ProfileCard setTime={setTime} time={time} />
                 <StatusContainer data={data} time={time} />
             </div>
