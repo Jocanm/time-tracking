@@ -19,3 +19,30 @@ body {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
 }
+
+
+
+@media (min-width: 1001px) {
+    .button-cont button{
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1001px) {
+    .button-cont{
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width: 1001px) {
+    .info-cont{
+        height: 297px;
+    }
+}
+
+@media (min-width: 1001px) {
+    .profile-card{
+        position: relative;
+        bottom: 10px;
+    }
+}

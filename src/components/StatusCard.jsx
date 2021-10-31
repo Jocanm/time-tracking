@@ -62,7 +62,7 @@ const StatusCard = ({title,timeframes,time}) => {
     },[title])
 
     return (
-        <div className="w-11/12 h-44">
+        <div className="w-11/12 h-44 -mb-11 sm:mb-0">
             <div className={`${myClass} rounded-2xl flex justify-end h-16`}>
                 <img src={rightLogo} alt="work"/>
             </div>
@@ -72,7 +72,7 @@ const StatusCard = ({title,timeframes,time}) => {
                     <img src={ellipsis} alt=".." />
                 </div>
                 <div className="flex justify-between items-center sm:flex-col sm:items-start">
-                    <h1 className="text-2xl tracking-wide sm:text-6xl">{`${rightInfo.current}hrs`}</h1>
+                    <h1 className="text-2xl tracking-wide sm:text-4xl sm:font-extralight">{`${rightInfo.current}hrs`}</h1>
                     <p className="text-xs text-tk-blue-pale opacity-70">{rightTime} - {rightInfo.previous}</p>
                 </div>
             </div>
